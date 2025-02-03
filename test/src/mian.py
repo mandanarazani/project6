@@ -4,8 +4,7 @@ import streamlit as st
 
  
 # Add images for branding
-st.image("./assets/Untitled17_20250113001924.png", width=400)
-st.sidebar.image("./assets/reshot-icon-flowers-in-the-branch-QXUYA35D8W.svg", width=180)
+
  
 # Sidebar navigation
 page = st.sidebar.radio("", ["About", "Shop", "ChatBot"])
